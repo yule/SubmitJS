@@ -1,11 +1,11 @@
 {
   "name": "SubmitJS",
-  "version": "0.1",
+  "version": "0.3",
   "description": "Allows Ctrl Enter to submit form on page",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["catch.js"]
+      "js": ["match.js"]
     }
   ]
 }
